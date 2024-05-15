@@ -20,7 +20,7 @@
 
 <Header />
 <main class="container">
-	<h1 class="p-4 text-6xl text-white">Paulina Puppers</h1>
+	<h1 class="p-4 text-6xl text-primary">Paulina Puppers</h1>
 	<p>Find my work here</p>
 	<Hero />
 	<Pets {pets} />

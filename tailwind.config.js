@@ -19,7 +19,16 @@ export default {
 			center: true,
 			padding: `var(--paddding-inline)`,
 		},
-		extend: {},
+		extend: {
+			boxShadow: {
+				sm: 'var(--shadow-1)',
+				DEFAULT: 'var(--shadow-2)',
+				md: 'var(shadow-3)',
+				lg: 'var(--shadow-4)',
+				xl: 'var(--shadow-5)',
+				'2xl': 'var(--shadow-6)',
+			},
+		},
 	},
 	daisyui: {
 		themes: [

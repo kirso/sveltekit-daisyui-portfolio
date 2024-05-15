@@ -17,7 +17,7 @@
 		<h2 class="card-title">{name}</h2>
 		<p>Loves running in the park!</p>
 		<div class="justify-end card-actions">
-			<button class="btn btn-secondary">See more!</button>
+			<button class="shadow btn btn-secondary">See more!</button>
 		</div>
 	</div>
 </div>
