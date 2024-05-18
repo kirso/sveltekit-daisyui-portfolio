@@ -8,7 +8,7 @@
 	</div>
 	<div class="flex-none">
 		<ul class="items-center px-1 menu menu-horizontal">
-			<li><a href="/">about</a></li>
+			<li><a href="/contact">contact</a></li>
 			<li>
 				<button onclick={window.toggleTheme}
 					><ThemeToggleIcon class="w-5" /></button

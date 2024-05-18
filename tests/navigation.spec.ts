@@ -7,4 +7,11 @@ test('navigation smoke test', async ({page}) => {
 	await expect(
 		page.getByRole('heading', {name: 'Paulina Puppers', level: 1}),
 	).toBeVisible()
+
+	// navigate to Contact page
+	await page.getByRole('link', {name: 'contact'}).click()
+	await expect(page).toHaveTitle('Contact')
+	await expect(
+		page.getByRole('heading', {name: 'Reach out', level: 1}),
+	).toBeVisible()
 })
